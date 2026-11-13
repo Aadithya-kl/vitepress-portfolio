@@ -172,8 +172,10 @@ and `image` set, and that the file lives directly in `docs/work/` (not a subfold
 rather than just adding a case study file, see `AGENTS.md`'s link-handling section: both `:src`
 and `:href` need `withBase(...)`, not a plain string.
 
-**The form shows raw text instead of a nice page.** You are seeing the response as JSON. That is
-normal for now. Once you claim the form you can set a redirect so people land back on your site.
+**After sending, people land on a plain "Thanks" page.** That is BootForm's own page, and it is what
+visitors see once the form is claimed. To send them back to your site instead, add a hidden field
+inside the form: `<input type="hidden" name="_redirect" value="https://yourname.com/thanks.html">`.
+The address has to be on the same site as the form.
 
 ## Licence
 
