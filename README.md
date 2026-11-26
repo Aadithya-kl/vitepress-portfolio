@@ -144,6 +144,7 @@ is meant to be used for this, not the docs-site defaults.
   swap icons, all following this template's conventions.
 - [`site-sections`](https://bootform.github.io/site-sections/) for copy-paste page sections (heroes,
   pricing, FAQs, footers) that survive VitePress's own styles.
+
 | | |
 |---|---|
 | **A blog** | [vitepress-blog](https://github.com/BootForm/vitepress-blog) if you want to write about your work too, with real post tags and RSS. |
